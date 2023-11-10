@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Soma</h1>
+
+    <div id = "resultado">
+        <p>O resultado vai aqui</p>
+    </div>
+
+    <script>
+        let n1 = Number(prompt("Digite o primeiro numero"))
+        let n2 = Number(prompt("Digite o segundo numero"))
+        let soma = n1 + n2
+        let resultado = (`${n1} + ${n2} = ${soma}`)
+        document.getElementById("resultado").innerHTML = resultado
+
+    </script>
+    
+</body>
+</html>
